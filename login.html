@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<script>
+    let username = prompt("Nhập username của mày vào đây");
+
+    if (username == 'admin'){
+        let pass = prompt("nhập pass đê");//sử dụng if trong if
+        if (pass == 'themaster')
+        {alert('Welcome!');}
+        else if (pass == 'null')
+        {alert('cancle');}
+        else {alert('Wrongpass');}
+    }
+    //{alert('Chuẩn bị nhập pass');}
+        else if (username == 'null')
+                {alert('Cancle');}
+        else {alert('I dont know');}
+/*
+    let pass = prompt("nhập pass của mày vào ô này");
+        if (pass == 'themaster')
+                    {alert('Welcome!');}
+                else if (pass == null)
+                    {alert('cancle');}
+    else {alert('Wrongpass');}
+    */
+</script>
+</body>
+</html>
